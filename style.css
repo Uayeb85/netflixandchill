@@ -1,0 +1,80 @@
+body{
+ background-color: black;
+ padding: 0% 25% 0% 25%;
+ font-family: sans-serif;
+}
+
+#id{
+  font-size: 38px;
+  font-weight: lighter;
+
+
+}
+
+h1{
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+}
+#profile{
+
+}
+
+.profile__item{
+  width: 120px;
+  height: 120px;
+  background-color: blue;
+  display: inline-block;
+  border: 5px solid black;
+  margin: 15px;
+  padding: 15px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+
+
+}
+
+.profile__item:hover{
+  border: 5px solid white;
+}
+
+#user1{
+  background-color: yellow;
+}
+
+#user2{
+  background-color: purple;
+}
+
+#user3{
+  background-color: orange;
+}
+
+#AddUser{
+  background-color: blue;
+}
+
+#button{
+  clear: both;
+  color: white;
+  width: 220px;
+  height: 60px;
+  border: 5px solid white;
+  padding: 15px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#button:hover{
+  border: 5px solid white;
+  color: gray;
+  width: 220px;
+  height: 60px;
+  border: 5px solid gray;
+}
